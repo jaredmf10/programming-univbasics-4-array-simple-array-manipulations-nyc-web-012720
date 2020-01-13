@@ -16,7 +16,7 @@ dog_breeds.pop(2)
 end
 #using_shift takes in an argument of an array and uses the shift method to remove the first item and return it and decreases the length of the array by 1
 def using_shift(my_favorite_cities)
-  my_favorite_cities.shift(2)
+  my_favorite_cities.shift
 end
 #shift_with_args takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array and decreases the length of the array by 2
 
