@@ -34,3 +34,7 @@ end
 def using_uniq(haircuts)
   haircuts.uniq
 end
+#using_flatten takes in an argument of an array that contains other arrays and uses the flatten method to return an array of strings
+def using_flatten(instruments)
+instruments.flatten
+end
