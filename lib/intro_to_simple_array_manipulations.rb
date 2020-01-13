@@ -15,7 +15,9 @@ def pop_with_args(dog_breeds)
 dog_breeds.pop(2)
 end
 #using_shift takes in an argument of an array and uses the shift method to remove the first item and return it and decreases the length of the array by 1
-
+def using_shift(my_favorite_cities)
+  my_favorite_cities.shift(2)
+end
 #shift_with_args takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array and decreases the length of the array by 2
 
 #using_concat takes in two arguments of two different arrays and uses the concat method to add the contents of the second array to the first and increases the length of the first array
