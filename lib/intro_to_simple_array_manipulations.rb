@@ -1,4 +1,4 @@
 #using push
-artists = ["Hozier", "Ariana Grande", "Usher"]
-next_artist = "Beyonce"
-artists.push(next_artist)
+array = ["red", "green", "blue"]
+next_color = "orange"
+artists.push(next_color)
