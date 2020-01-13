@@ -3,7 +3,7 @@ def using_push(colors_in_the_rainbow, next_color)
 colors_in_the_rainbow.push(next_color)
 end
 #using_unshift takes in two arguments, an array and a string and adds that string to the front of the array using the unshift method and increases the length of the array
-def using_push(colors_in_the_rainbow, next_color)
+def using_unshift(colors_in_the_rainbow, next_color)
 colors_in_the_rainbow.unshift(next_color)
 end
 #using_pop takes in argument of an array and uses the pop method to remove the last element from the array and return that element and decreases the length of the array by 1
