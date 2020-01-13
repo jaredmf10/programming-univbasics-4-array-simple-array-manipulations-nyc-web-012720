@@ -1,5 +1,6 @@
 #using_push takes in two arguments, an array and a string and adds that string to the end of the array using the push method
-array = ["red", "orange", "yellow"]
+def array(colors_in_the_rainbow, next_color) 
+colors_in_the_rainbow = ["red", "orange", "yellow"]
 next_color = "green"
 array.push(next_color)
 
