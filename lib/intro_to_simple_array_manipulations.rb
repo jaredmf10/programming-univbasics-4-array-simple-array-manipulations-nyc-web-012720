@@ -1,6 +1,7 @@
 #using_push takes in two arguments, an array and a string and adds that string to the end of the array using the push method
 array = ["red", "orange", "yellow"]
-
+next_color = "green"
+array.push(next_color)
 
 #using_unshift takes in two arguments, an array and a string and adds that string to the front of the array using the unshift method and increases the length of the array
 
