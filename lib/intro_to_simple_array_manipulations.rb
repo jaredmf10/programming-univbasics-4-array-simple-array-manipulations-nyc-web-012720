@@ -23,3 +23,6 @@ def shift_with_args(my_favorite_cities)
   my_favorite_cities.shift(2)
 end
 #using_concat takes in two arguments of two different arrays and uses the concat method to add the contents of the second array to the first and increases the length of the first array
+def using_concat(my_favorite_things, more_favs)
+  my_favorite_things.concat(more_favs)
+end
