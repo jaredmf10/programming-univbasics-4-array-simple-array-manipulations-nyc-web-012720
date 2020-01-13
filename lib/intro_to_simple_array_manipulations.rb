@@ -1,6 +1,6 @@
 #using_push takes in two arguments, an array and a string and adds that string to the end of the array using the push method
-def array = ["red", "orange", "yellow"]
-end
+array = ["red", "orange", "yellow"]
+
 
 #using_unshift takes in two arguments, an array and a string and adds that string to the front of the array using the unshift method and increases the length of the array
 
