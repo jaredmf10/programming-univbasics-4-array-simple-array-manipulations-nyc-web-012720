@@ -38,3 +38,7 @@ end
 def using_flatten(instruments)
 instruments.flatten
 end
+#using_delete takes in two arguments, an array and a string, and uses the delete method to remove any items from the array that are equal to that string
+def using_delete(instructors, name)
+  instructors.delete("Steven")
+end
