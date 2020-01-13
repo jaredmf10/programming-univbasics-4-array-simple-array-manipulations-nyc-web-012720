@@ -8,10 +8,12 @@ colors_in_the_rainbow.unshift(next_color)
 end
 #using_pop takes in argument of an array and uses the pop method to remove the last element from the array and return that element and decreases the length of the array by 1
 def using_pop(colors_in_the_rainbow)
-colors_in_the_rainbow.pop(2)
+colors_in_the_rainbow.pop
 end
 #pop_with_args takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them and decreases the length of the array by 2
-
+def using_pop_with_args(colors_in_the_rainbow)
+colors_in_the_rainbow.pop(2)
+end
 #using_shift takes in an argument of an array and uses the shift method to remove the first item and return it and decreases the length of the array by 1
 
 #shift_with_args takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array and decreases the length of the array by 2
