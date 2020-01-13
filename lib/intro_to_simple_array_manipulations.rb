@@ -28,5 +28,5 @@ def using_concat(my_favorite_things, more_favs)
 end
 #using_insert akes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 4th index of the array and increases the length of the array
 def using_insert(list_of_programming_languages, another_language)
-list_of_programming_languages.insert(4, "italian")
+list_of_programming_languages.insert(4, "python")
 end
