@@ -44,5 +44,5 @@ def using_delete(instructors, name)
 end
 #using_delete_at takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer
 def using_delete_at(famous_robots, integer)
-famous_robots.delete(2)
+famous_robots.delete(Robocop)
 end
