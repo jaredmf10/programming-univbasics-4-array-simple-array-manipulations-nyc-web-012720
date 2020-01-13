@@ -30,3 +30,7 @@ end
 def using_insert(list_of_programming_languages, another_language)
 list_of_programming_languages.insert(4, "Python")
 end
+#using_uniq takes in an argument of an array and uses the uniq method to remove any duplicate items
+def using_uniq(haircuts)
+  haircuts.uniq
+end
